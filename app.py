@@ -5,11 +5,12 @@ import pandas as pd
 from PIL import Image
 from io import BytesIO
 import base64
-import rembg
-from rembg import remove
-st.title("Background Remover")
+import rembg.bg
+from rembg.bg import remove
 
-st.set_page_config(layout="wide", page_title="Image Background Remover")
+# st.title("Background Remover")
+
+st.set_page_config(layout="wide", page_title="Image Background Remover")  # Keep this at the beginning of your script
 
 st.write("## Remove background from your image")
 st.write(
