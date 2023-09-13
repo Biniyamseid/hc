@@ -1,4 +1,2 @@
-# setup.sh
-
-# Install rembg from PyPI
-pip install rembg
+pip install rembg # for library
+pip install rembg[cli] # for library + cli
