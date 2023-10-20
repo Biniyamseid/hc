@@ -1,4 +1,4 @@
-# Chat-with-pdf-LLM-application
+# Background Remover app
 to install the Background Remover app
 please follow these steps:
 
